@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowJs": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "listFiles": false,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types",
+            "@types"
+        ]
+    },
+    "paths": {
+        "*": [
+            "./@types/*"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}
